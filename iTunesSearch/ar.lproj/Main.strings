@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "3Lh-Vi-Gjo"; */
+"3Lh-Vi-Gjo.text" = "Name";
+
+/* Class = "UILabel"; text = "item Currency"; ObjectID = "6LY-z1-hrh"; */
+"6LY-z1-hrh.text" = "item Currency";
+
+/* Class = "UILabel"; text = "item price"; ObjectID = "9yE-aB-cqE"; */
+"9yE-aB-cqE.text" = "item price";
+
+/* Class = "UILabel"; text = "item Kind"; ObjectID = "Hq8-Tm-IEq"; */
+"Hq8-Tm-IEq.text" = "item Kind";
+
+/* Class = "UILabel"; text = "item Artist name"; ObjectID = "OAH-qv-RNC"; */
+"OAH-qv-RNC.text" = "item Artist name";
+
+/* Class = "UILabel"; text = "Kind"; ObjectID = "TFP-rg-jLw"; */
+"TFP-rg-jLw.text" = "Kind";
+
+/* Class = "UISegmentedControl"; Vn5-Ks-m3v.segmentTitles[0] = "Music"; ObjectID = "Vn5-Ks-m3v"; */
+"Vn5-Ks-m3v.segmentTitles[0]" = "Music";
+
+/* Class = "UISegmentedControl"; Vn5-Ks-m3v.segmentTitles[1] = "Movie"; ObjectID = "Vn5-Ks-m3v"; */
+"Vn5-Ks-m3v.segmentTitles[1]" = "Movie";
+
+/* Class = "UISegmentedControl"; Vn5-Ks-m3v.segmentTitles[2] = "Software"; ObjectID = "Vn5-Ks-m3v"; */
+"Vn5-Ks-m3v.segmentTitles[2]" = "Software";
+
+/* Class = "UISegmentedControl"; Vn5-Ks-m3v.segmentTitles[3] = "E-books"; ObjectID = "Vn5-Ks-m3v"; */
+"Vn5-Ks-m3v.segmentTitles[3]" = "E-books";
+
+/* Class = "UILabel"; text = "Artist name"; ObjectID = "pMj-8l-4eN"; */
+"pMj-8l-4eN.text" = "Artist name";
+
+/* Class = "UILabel"; text = "item Name"; ObjectID = "qIM-x2-JeC"; */
+"qIM-x2-JeC.text" = "item Name";
+
+/* Class = "UILabel"; text = "Genre"; ObjectID = "qgi-cl-paZ"; */
+"qgi-cl-paZ.text" = "Genre";
+
+/* Class = "UILabel"; text = "Currency"; ObjectID = "t2P-JD-4Ip"; */
+"t2P-JD-4Ip.text" = "Currency";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "uCI-SI-87t"; */
+"uCI-SI-87t.text" = "Price:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xnh-ss-KbH"; */
+"xnh-ss-KbH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "item Genre"; ObjectID = "zLn-17-FGl"; */
+"zLn-17-FGl.text" = "item Genre";

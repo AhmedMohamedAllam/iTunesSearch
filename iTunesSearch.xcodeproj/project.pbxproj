@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0311BC1ECF4230009A3067 /* LandScapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0311BB1ECF4230009A3067 /* LandScapeViewController.swift */; };
+		2B0311BE1ECF4343009A3067 /* LandScapeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0311BD1ECF4343009A3067 /* LandScapeCell.swift */; };
 		2B1C81DA1EC378AE0028EC39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C81D91EC378AE0028EC39 /* AppDelegate.swift */; };
-		2B1C81DC1EC378AE0028EC39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C81DB1EC378AE0028EC39 /* ViewController.swift */; };
 		2B1C81DF1EC378AE0028EC39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C81DD1EC378AE0028EC39 /* Main.storyboard */; };
 		2B1C81E11EC378AE0028EC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C81E01EC378AE0028EC39 /* Assets.xcassets */; };
 		2B1C81E41EC378AE0028EC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C81E21EC378AE0028EC39 /* LaunchScreen.storyboard */; };
+		2B1C81F71EC37CF10028EC39 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C81F61EC37CF10028EC39 /* DetailViewController.swift */; };
+		2B1C81F91EC3817C0028EC39 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C81F81EC3817C0028EC39 /* SearchViewController.swift */; };
+		2B1C81FE1EC384D10028EC39 /* iTunesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C81FD1EC384D10028EC39 /* iTunesItem.swift */; };
+		2B1C82001EC386550028EC39 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C81FF1EC386550028EC39 /* LoadingCell.xib */; };
+		2B1C82021EC3871A0028EC39 /* ResultNotFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C82011EC3871A0028EC39 /* ResultNotFoundCell.xib */; };
+		2B1C82041EC387720028EC39 /* ResultFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C82031EC387720028EC39 /* ResultFoundCell.xib */; };
+		2B1C82071EC389260028EC39 /* ResultFoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C82061EC389260028EC39 /* ResultFoundCell.swift */; };
+		2B1C82091EC3893A0028EC39 /* ResultNotFoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C82081EC3893A0028EC39 /* ResultNotFoundCell.swift */; };
+		2B1C820B1EC3894B0028EC39 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C820A1EC3894B0028EC39 /* LoadingCell.swift */; };
+		2B1C820E1EC38AAA0028EC39 /* Utiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C820D1EC38AAA0028EC39 /* Utiles.swift */; };
+		2B1C82161EC38C8E0028EC39 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C82151EC38C8E0028EC39 /* AsyncImageView.m */; };
+		2B1C82191EC78FE80028EC39 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C82181EC78FE80028EC39 /* APIManager.swift */; };
+		2B1C821B1EC7926B0028EC39 /* CustomURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C821A1EC7926B0028EC39 /* CustomURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B0311BB1ECF4230009A3067 /* LandScapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandScapeViewController.swift; sourceTree = "<group>"; };
+		2B0311BD1ECF4343009A3067 /* LandScapeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandScapeCell.swift; sourceTree = "<group>"; };
 		2B1C81D61EC378AE0028EC39 /* iTunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1C81D91EC378AE0028EC39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B1C81DB1EC378AE0028EC39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B1C81DE1EC378AE0028EC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B1C81E01EC378AE0028EC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B1C81E31EC378AE0028EC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B1C81E51EC378AE0028EC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1C81F61EC37CF10028EC39 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2B1C81F81EC3817C0028EC39 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2B1C81FD1EC384D10028EC39 /* iTunesItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesItem.swift; sourceTree = "<group>"; };
+		2B1C81FF1EC386550028EC39 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		2B1C82011EC3871A0028EC39 /* ResultNotFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultNotFoundCell.xib; sourceTree = "<group>"; };
+		2B1C82031EC387720028EC39 /* ResultFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultFoundCell.xib; sourceTree = "<group>"; };
+		2B1C82061EC389260028EC39 /* ResultFoundCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultFoundCell.swift; sourceTree = "<group>"; };
+		2B1C82081EC3893A0028EC39 /* ResultNotFoundCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultNotFoundCell.swift; sourceTree = "<group>"; };
+		2B1C820A1EC3894B0028EC39 /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		2B1C820D1EC38AAA0028EC39 /* Utiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utiles.swift; sourceTree = "<group>"; };
+		2B1C82131EC38C8D0028EC39 /* iTunesSearch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesSearch-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B1C82141EC38C8E0028EC39 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		2B1C82151EC38C8E0028EC39 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		2B1C82181EC78FE80028EC39 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2B1C821A1EC7926B0028EC39 /* CustomURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,22 +84,78 @@
 		2B1C81D81EC378AE0028EC39 /* iTunesSearch */ = {
 			isa = PBXGroup;
 			children = (
-				2B1C81D91EC378AE0028EC39 /* AppDelegate.swift */,
-				2B1C81EB1EC378C40028EC39 /* view */,
-				2B1C81DD1EC378AE0028EC39 /* Main.storyboard */,
-				2B1C81E01EC378AE0028EC39 /* Assets.xcassets */,
-				2B1C81E21EC378AE0028EC39 /* LaunchScreen.storyboard */,
-				2B1C81E51EC378AE0028EC39 /* Info.plist */,
+				2B1C82171EC784CF0028EC39 /* networking */,
+				2B1C81F01EC37C6B0028EC39 /* viewController */,
+				2B1C81FA1EC384440028EC39 /* cell */,
+				2B1C82051EC388A90028EC39 /* customCell */,
+				2B1C81F11EC37C790028EC39 /* model */,
+				2B1C820C1EC38A8F0028EC39 /* supportingFiles */,
 			);
 			path = iTunesSearch;
 			sourceTree = "<group>";
 		};
-		2B1C81EB1EC378C40028EC39 /* view */ = {
+		2B1C81F01EC37C6B0028EC39 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
-				2B1C81DB1EC378AE0028EC39 /* ViewController.swift */,
+				2B1C81F81EC3817C0028EC39 /* SearchViewController.swift */,
+				2B1C81F61EC37CF10028EC39 /* DetailViewController.swift */,
+				2B0311BB1ECF4230009A3067 /* LandScapeViewController.swift */,
 			);
-			name = view;
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		2B1C81F11EC37C790028EC39 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2B1C81FD1EC384D10028EC39 /* iTunesItem.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		2B1C81FA1EC384440028EC39 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				2B1C82061EC389260028EC39 /* ResultFoundCell.swift */,
+				2B1C82081EC3893A0028EC39 /* ResultNotFoundCell.swift */,
+				2B1C820A1EC3894B0028EC39 /* LoadingCell.swift */,
+				2B0311BD1ECF4343009A3067 /* LandScapeCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		2B1C82051EC388A90028EC39 /* customCell */ = {
+			isa = PBXGroup;
+			children = (
+				2B1C82031EC387720028EC39 /* ResultFoundCell.xib */,
+				2B1C82011EC3871A0028EC39 /* ResultNotFoundCell.xib */,
+				2B1C81FF1EC386550028EC39 /* LoadingCell.xib */,
+			);
+			name = customCell;
+			sourceTree = "<group>";
+		};
+		2B1C820C1EC38A8F0028EC39 /* supportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2B1C81DD1EC378AE0028EC39 /* Main.storyboard */,
+				2B1C820D1EC38AAA0028EC39 /* Utiles.swift */,
+				2B1C81E01EC378AE0028EC39 /* Assets.xcassets */,
+				2B1C81D91EC378AE0028EC39 /* AppDelegate.swift */,
+				2B1C81E51EC378AE0028EC39 /* Info.plist */,
+				2B1C82141EC38C8E0028EC39 /* AsyncImageView.h */,
+				2B1C82151EC38C8E0028EC39 /* AsyncImageView.m */,
+				2B1C82131EC38C8D0028EC39 /* iTunesSearch-Bridging-Header.h */,
+				2B1C81E21EC378AE0028EC39 /* LaunchScreen.storyboard */,
+			);
+			name = supportingFiles;
+			sourceTree = "<group>";
+		};
+		2B1C82171EC784CF0028EC39 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				2B1C82181EC78FE80028EC39 /* APIManager.swift */,
+				2B1C821A1EC7926B0028EC39 /* CustomURL.swift */,
+			);
+			name = networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +190,7 @@
 				TargetAttributes = {
 					2B1C81D51EC378AE0028EC39 = {
 						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,6 +220,9 @@
 			files = (
 				2B1C81E41EC378AE0028EC39 /* LaunchScreen.storyboard in Resources */,
 				2B1C81E11EC378AE0028EC39 /* Assets.xcassets in Resources */,
+				2B1C82001EC386550028EC39 /* LoadingCell.xib in Resources */,
+				2B1C82021EC3871A0028EC39 /* ResultNotFoundCell.xib in Resources */,
+				2B1C82041EC387720028EC39 /* ResultFoundCell.xib in Resources */,
 				2B1C81DF1EC378AE0028EC39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +234,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1C81DC1EC378AE0028EC39 /* ViewController.swift in Sources */,
+				2B1C81FE1EC384D10028EC39 /* iTunesItem.swift in Sources */,
+				2B1C82161EC38C8E0028EC39 /* AsyncImageView.m in Sources */,
+				2B1C82091EC3893A0028EC39 /* ResultNotFoundCell.swift in Sources */,
+				2B1C820B1EC3894B0028EC39 /* LoadingCell.swift in Sources */,
+				2B1C82191EC78FE80028EC39 /* APIManager.swift in Sources */,
+				2B1C81F71EC37CF10028EC39 /* DetailViewController.swift in Sources */,
+				2B0311BC1ECF4230009A3067 /* LandScapeViewController.swift in Sources */,
+				2B0311BE1ECF4343009A3067 /* LandScapeCell.swift in Sources */,
+				2B1C82071EC389260028EC39 /* ResultFoundCell.swift in Sources */,
+				2B1C821B1EC7926B0028EC39 /* CustomURL.swift in Sources */,
+				2B1C820E1EC38AAA0028EC39 /* Utiles.swift in Sources */,
+				2B1C81F91EC3817C0028EC39 /* SearchViewController.swift in Sources */,
 				2B1C81DA1EC378AE0028EC39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -226,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -270,10 +373,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iTunesSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.iTunesSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iTunesSearch/iTunesSearch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -282,10 +388,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iTunesSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.iTunesSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iTunesSearch/iTunesSearch-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -309,6 +417,7 @@
 				2B1C81EA1EC378AE0028EC39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
